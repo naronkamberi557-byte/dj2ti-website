@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DJ2Ti | DJ Profesional për Dasma</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+<nav>
+<h1 class="logo">DJ2Ti</h1>
+
+<ul class="nav-links">
+<li><a href="#home">Kreu</a></li>
+<li><a href="#about">Rreth Meje</a></li>
+<li><a href="#services">Shërbimet</a></li>
+<li><a href="#contact">Rezervo</a></li>
+</ul>
+
+<div class="menu-toggle">&#9776;</div>
+</nav>
+</header>
+
+<section id="home" class="hero">
+<div class="hero-content">
+
+<h1 class="main-title">DJ2Ti</h1>
+<h2 class="subtitle">DJ Profesional për Dasma & Evente</h2>
+
+<p class="hero-text">
+Krijoj dasma, fejesa dhe kanagjegje të paharrueshme
+me sistem profesional zanor, ndriçim modern dhe energji pa ndalesë.
+</p>
+
+<div class="hero-buttons">
+<button onclick="scrollToSection('contact')" class="neon-btn">REZERVO TANI</button>
+<button onclick="scrollToSection('about')" class="outline-btn">MËSO MË SHUMË</button>
+</div>
+
+</div>
+</section>
+
+<section id="about" class="glass reveal">
+<h2 class="section-title">RRETH DJ2Ti</h2>
+
+<p>
+DJ2Ti është DJ profesional i specializuar në dasma, fejesa,
+kanagjegje dhe evente private. Me përvojë dhe aftësi për të lexuar energjinë e turmës,
+ai siguron që çdo festë të kthehet në një eksperiencë të paharrueshme.
+</p>
+
+</section>
+
+<section id="services" class="glass reveal">
+<h2 class="section-title">SHËRBIMET</h2>
+
+<div class="services-grid">
+
+<div class="service-card">
+<h3>Dasma</h3>
+<p>Atmosferë romantike dhe festë plot energji deri në orët e vona.</p>
+</div>
+
+<div class="service-card">
+<h3>Fejesa</h3>
+<p>Organizim elegant dhe muzikë e përzgjedhur për momentet tuaja speciale.</p>
+</div>
+
+<div class="service-card">
+<h3>Kanagjegje</h3>
+<p>Kombinim perfekt i traditës me ritmet moderne.</p>
+</div>
+
+<div class="service-card">
+<h3>Evente Private</h3>
+<p>Ditëlindje, evente biznesi dhe festa ekskluzive.</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="glass reveal">
+<h2 class="section-title">REZERVO EVENTIN</h2>
+
+<form id="contactForm" class="booking-form">
+<input type="text" placeholder="Emri i Plotë" required>
+<input type="email" placeholder="Email Adresa" required>
+<input type="date" required>
+<textarea placeholder="Na tregoni rreth eventit tuaj..." required></textarea>
+<button type="submit" class="neon-btn">DËRGO KËRKESËN</button>
+</form>
+
+<p id="formMessage"></p>
+</section>
+
+<footer>
+© 2026 DJ2Ti
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
