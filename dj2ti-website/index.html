@@ -86,19 +86,28 @@ ai siguron që çdo festë të kthehet në një eksperiencë të paharrueshme.
 <section id="contact" class="glass reveal">
 <h2 class="section-title">REZERVO EVENTIN</h2>
 
-<form id="contactForm" class="booking-form">
-<input type="text" placeholder="Emri i Plotë" required>
-<input type="email" placeholder="Email Adresa" required>
-<input type="date" required>
-<textarea placeholder="Na tregoni rreth eventit tuaj..." required></textarea>
-<button type="submit" class="neon-btn">DËRGO KËRKESËN</button>
-</form>
+<form action="https://formsubmit.co/djdasmash@gmail.com" method="POST" class="booking-form">
 
+<input type="text" name="Emri" placeholder="Emri i Plotë" required>
+
+<input type="email" name="Email" placeholder="Email Adresa" required>
+
+<input type="tel" name="Telefoni" placeholder="Numri i Telefonit" required>
+
+<input type="date" name="Data" required>
+
+<textarea name="Mesazhi" placeholder="Na tregoni rreth eventit tuaj..." required></textarea>
+
+<input type="hidden" name="_captcha" value="false">
+
+<button type="submit" class="neon-btn">DËRGO KËRKESËN</button>
+
+</form>
 <p id="formMessage"></p>
 </section>
 
 <footer>
-© 2026 DJ2Ti
+© 2026 Dj2Ti
 </footer>
 
 <script src="main.js"></script>
